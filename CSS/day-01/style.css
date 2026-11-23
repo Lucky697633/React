@@ -1,0 +1,31 @@
+/* css syntax  */
+/* selector{
+    property:value;
+} */
+
+/* selector are of three types:  */
+/* 1. Element Selector */
+/* 2. Class Selector */
+/* 3. ID Selector */
+
+
+/* to access element with id and class we use # and . respectively.  */
+
+/* types of css   */
+/* a. Inline CSS
+b. Internal CSS
+c. External CSS */
+
+/* inline css is used inside the html tag using style attribute. 
+ */
+ /* internal css is used inside the <style> tag in the head section of html file.
+
+ 
+ external css is used in a separate file with .css extension and linked to html file using <link> tag in the head section of html file. */
+
+ button{
+    color: aqua;
+ }
+
+ /* write an article and apply css colors in it using 
+ different coloring techniques. */

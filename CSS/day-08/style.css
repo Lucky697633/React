@@ -1,0 +1,29 @@
+body{
+    background-color: crimson;
+}
+
+/* mobile screen */
+/* @media screen {
+ } */
+
+ @media (max-width:600px) {
+    body {
+        background-color: green;
+    }
+ }
+
+ /* tablet screen */
+ @media (min-width:600px) and (max-width:900px){
+    body {
+        background-color: greenyellow;
+    }
+ }
+
+ /* laptop screen */
+
+ @media (min-width:900px) and (max-width:1200px){
+    body {
+        background-color: purple;
+    }
+ }
+ 

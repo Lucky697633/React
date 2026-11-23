@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>Welcome To ShopHub</title>
+
+        <style>
+            /* *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            } */
+
+            nav{
+                background-color: black;
+                color: white;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 45px;
+            }
+            .logo{
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            nav ul{
+                list-style: none;
+                display: flex;
+                gap: 25px;
+            }
+            nav ul li a{
+                color: white;
+                text-decoration: none;
+                font-size: 14px;
+            }
+            nav ul li a:hover{
+                color: burlywood;
+            }
+            .hero{
+                height: 200px;
+                background-color: skyblue;
+                text-align: center;
+                padding-top: 70px;
+                h1{
+                     color: white;
+                }
+            }
+            .product{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #box1, #box2, #box3{
+                margin: 30px;
+                padding: 2px;
+            }
+            .product h2{
+                margin: 30px;
+                padding: 2px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <nav>
+            <div class="logo">ShopeEasy</div>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <h1>Welcome to ShopEasy</h1>
+            <p>Best Deal on Electronic & Accessories</p>
+
+            <button class="shop-btn">Shop Now</button>
+        </section>
+
+        <div class="product">
+            <h2>Featured Products</h2>
+            <div class="product"></div>
+
+            <div class="product-card" id="box1">
+                <img src="download.jpg" alt="Wireless Headphone" height="90px" width="90px">
+
+                <h3>Wireless Headphone</h3>
+                <p class="price">$99</p>
+
+                <button class="cart-btn">Add to cart</button>
+            </div>
+
+            <div class="product-card" id="box2">
+                <img src="dn.jpg" alt="" height="90px" width="90px">
+
+                <h3>Smart Watch</h3>
+                <p class="price">$120</p>
+
+                <button class="cart-btn">Add to cart</button>
+            </div>
+
+            <div class="product-card" id="box3" >
+                <img src="pic.jpg" alt="" height="90px" width="90px">
+
+                <h3>Gaming Mouse</h3>
+                <p class="price">$45</p>
+
+                <button class="cart-btn">Add to cart</button>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>&copy; 2026 ShopyEasy.All Rights Reserved.</p>
+        </footer>
+    </body>    
+</html>

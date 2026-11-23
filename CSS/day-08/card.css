@@ -1,0 +1,73 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .student-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .student-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .student-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .student-card h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .student-card p {
+            text-align: left;
+            margin: 8px 0;
+            color: #555;
+        }
+
+        .student-card strong {
+            color: #222;
+        }
+
+        /* Tablet */
+        @media (max-width: 900px) {
+            .student-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+
+            .student-container {
+                grid-template-columns: 1fr;
+            }
+        }

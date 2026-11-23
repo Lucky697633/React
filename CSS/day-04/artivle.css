@@ -1,0 +1,57 @@
+h1{
+    background-color: #f2f2f2;
+    color: #33333375;
+      text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+h2{
+      color: green;
+    text-align: center;
+    text-decoration-thickness: 30px;
+    text-decoration-color: beige;
+    text-transform: capitalize;
+
+}
+#action1{
+    background-color: #890c0c;
+    color: rgb(255, 0, 0);
+    text-align: justify;
+    text-indent: 20px;
+    color: aqua;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+}
+#action2{
+    background-color: #4CAF50;
+     text-align: justify;
+    text-indent: 20px;
+    color: aqua;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    line-height: 25px;
+  font-family: "Yuyu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#action3{
+    background-color:rgba(0, 0, 255, 0.5);
+    color: hsl(0, 100%, 50%);
+}
+#action4{
+    background-color: #ff9800;
+    color: white;
+    
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+p{
+  text-indent: 20px;
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}

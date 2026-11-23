@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+.child{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    /* margin-bottom: 5px; */
+
+}
+.Parent{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* justify-content: last baseline; */
+    /* align-items: center;
+    height: 100vh; */
+
+}

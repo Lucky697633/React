@@ -1,0 +1,10 @@
+div{
+    border: 1px solid #4d454d;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    border-top: 10px solid green;
+}
+img{
+    height: 100px;
+}
